@@ -1,0 +1,80 @@
+/*style.css*/
+
+
+html,body{
+    margin: 0px;
+    position: fixed;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+    background: rgb(53,219,91);
+    background: linear-gradient(90deg, rgba(53,219,91,1) 0%, rgba(53,219,91,1) 35%, rgba(0,212,255,1) 100%);
+    
+    /*background: linear-gradient(110deg, #2fc265 60%, #2fc279 60%);*/
+
+    background-repeat: no-repeat;
+}
+
+  #particles-js{
+    position: absolute;
+    width:100%;
+    height:100%;
+    z-index: -1;
+
+    background: rgb(53,219,91);
+    background: linear-gradient(90deg, rgba(53,219,91,1) 0%, rgba(53,219,91,1) 35%, rgba(0,212,255,1) 100%);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.page{
+    position: absolute;
+    width:100%;
+    height:100%;
+    margin: 0px;
+}
+
+.avatarBox{
+    margin-top: 4%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.avatarPic{
+    display: inline-block;
+}
+
+#avatar {width: 57%; height: 57%;}
+
+.headersBox{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.nameheader{
+    font-family: 'Oxanium';
+    color: cornsilk;
+    display: block;
+}
+
+.subheader{
+    font-family: 'Oxanium';
+    color: cornsilk;
+    display: block;
+}
+.linksBox{
+    text-align: center;
+    box-sizing: border-box;
+}
+.linkedinlink{
+    display: inline;
+    margin-right: 0.75%;
+}
+#linkedinlogo{width: 4%; height: 4%;}
+.instagramlink{
+    display: inline;
+    margin-right: 0.75%;
+}
+#instagramlogo{width: 4%; height: 4%;}
