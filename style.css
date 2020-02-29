@@ -8,11 +8,9 @@ html,body{
     height:100%;
     z-index: -1;
 
-    background: rgb(53,219,91);
-    background: linear-gradient(90deg, rgba(53,219,91,1) 0%, rgba(53,219,91,1) 35%, rgba(0,212,255,1) 100%);
-    
-    /*background: linear-gradient(110deg, #2fc265 60%, #2fc279 60%);*/
-
+   overflow: hidden;
+        
+    background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgba(255,235,238,1) 0%, rgba(186,190,245,1) 93.6% );
     background-repeat: no-repeat;
 }
 
@@ -22,22 +20,47 @@ html,body{
     height:100%;
     z-index: -1;
 
-    background: rgb(53,219,91);
-    background: linear-gradient(90deg, rgba(53,219,91,1) 0%, rgba(53,219,91,1) 35%, rgba(0,212,255,1) 100%);
-
-    background-size: cover;
+    background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgba(255,235,238,1) 0%, rgba(186,190,245,1) 93.6% );
+    background-size: cover;    
     background-repeat: no-repeat;
   }
 
+
+
+
 .page{
-    position: absolute;
-    width:100%;
+    width:50%;
     height:100%;
     margin: 0px;
+
+    float: left;
+}
+
+.splitright{
+    width:50%;
+    height:100%;
+    margin: 0px;
+
+    float: right;
+    background-color: #00001c;
+}
+
+.righttextBox{
+    padding-top: 30%;
+    padding-left: 2%;
+    padding-left: 2%;
+    text-align: center;
+    box-sizing: border-box;
+    display: table-cell;
+}
+
+#introduction{
+    color: cornsilk;
+    font-family: 'Spartan';
 }
 
 .avatarBox{
-    margin-top: 4%;
+    margin-top: 7%;
     text-align: center;
     box-sizing: border-box;
 }
@@ -55,13 +78,13 @@ html,body{
 
 .nameheader{
     font-family: 'Oxanium';
-    color: cornsilk;
+    color: black;
     display: block;
 }
 
 .subheader{
     font-family: 'Oxanium';
-    color: cornsilk;
+    color: black;
     display: block;
 }
 .linksBox{
@@ -72,9 +95,9 @@ html,body{
     display: inline;
     margin-right: 0.75%;
 }
-#linkedinlogo{width: 4%; height: 4%;}
+#linkedinlogo{width: 5%; height: 5%;}
 .instagramlink{
     display: inline;
     margin-right: 0.75%;
 }
-#instagramlogo{width: 4%; height: 4%;}
+#instagramlogo{width: 5%; height: 5%;}
