@@ -1,62 +1,48 @@
 /*style.css*/
 
 
-html,body{
+html, body{
     margin: 0px;
-    position: fixed;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     z-index: -1;
-
-   overflow: hidden;
-        
-    background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgba(255,235,238,1) 0%, rgba(186,190,245,1) 93.6% );
-    background-repeat: no-repeat;
+    background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgb(120, 37, 2) 0%, rgb(41, 31, 45) 93.6% );
+    overflow-y: auto;
 }
 
-  #particles-js{
-    position: absolute;
-    width:100%;
-    height:100%;
-    z-index: -1;
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
-    background-image: radial-gradient( circle 879px at 10.4% 22.3%,  rgba(255,235,238,1) 0%, rgba(186,190,245,1) 93.6% );
-    background-size: cover;    
-    background-repeat: no-repeat;
-  }
+p, a, a:visited{
+    font-family: 'Anta';
+    color: antiquewhite;
+    text-decoration:none;
+}
 
-
-
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Anta';
+    color: antiquewhite;
+}
 
 .page{
-    width:50%;
-    height:100%;
+    width: 100%;
+    min-height: max-content;
+    overflow-y: inherit;
+    scroll-behavior: smooth;
+}
+
+.content{
+    padding-right: 15%;
+    padding-left: 15%;
+    min-height:max-content;
     margin: 0px;
-
-    float: left;
-}
-
-.splitright{
-    width:50%;
-    height:100%;
-    margin: 0px;
-
-    float: right;
-    background-color: #00001c;
-}
-
-.righttextBox{
-    padding-top: 30%;
-    padding-left: 2%;
-    padding-left: 2%;
-    text-align: center;
-    box-sizing: border-box;
-    display: table-cell;
-}
-
-#introduction{
-    color: cornsilk;
-    font-family: 'Spartan';
+    overflow-y: inherit;
+    scroll-behavior: inherit;
 }
 
 .avatarBox{
@@ -69,7 +55,7 @@ html,body{
     display: inline-block;
 }
 
-#avatar {width: 57%; height: 57%;}
+#avatar {width: 45%; height: 45%;}
 
 .headersBox{
     text-align: center;
@@ -77,27 +63,27 @@ html,body{
 }
 
 .nameheader{
-    font-family: 'Oxanium';
-    color: black;
     display: block;
 }
 
 .subheader{
-    font-family: 'Oxanium';
-    color: black;
     display: block;
 }
+
+.textBox{
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
 .linksBox{
+    margin-bottom: 5%;
     text-align: center;
     box-sizing: border-box;
 }
 .linkedinlink{
     display: inline;
-    margin-right: 0.75%;
+    
 }
-#linkedinlogo{width: 5%; height: 5%;}
-.instagramlink{
-    display: inline;
-    margin-right: 0.75%;
-}
-#instagramlogo{width: 5%; height: 5%;}
